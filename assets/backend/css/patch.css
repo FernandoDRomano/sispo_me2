@@ -1,0 +1,13 @@
+.tabs-container.grey {
+    margin-bottom: 15px;
+}
+.tabs-container.grey .tab-content {
+    border: 1px solid #ddd;
+    border-top: 0;
+}
+.tabs-container.grey .nav > li.active {
+    background: #e0e0e0;
+}
+.tabs-container.grey .nav > li.active > a {
+    color: #213a53;
+}

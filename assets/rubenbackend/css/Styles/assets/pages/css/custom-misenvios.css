@@ -1,0 +1,142 @@
+﻿@page 
+{
+    margin: 0mm;  /* this affects the margin in the printer settings */
+}
+ 
+ @media print 
+ {     
+    .objetoImpresion, .objetoImpresion *
+    {
+        position: static!important;  
+        display: block!important;    
+        z-index: 10;
+        font-size:11px;
+    }
+    
+    html, body {
+        height: 99%;    
+        -webkit-print-color-adjust: exact    
+    }
+    
+    .input-group-addon
+    {
+        display: none!important;
+        visibility: hidden!important;
+    }
+    .objetoImpresion
+    {  
+        background-color:#FFFFFF; 
+        border: solid 1px black ;
+        margin: 15px;
+        page-break-after: always;
+    }
+    
+    .objetoImpresion h1
+    {
+        font-size: 20px;
+    }
+    
+    .objetoImpresion h4
+    {
+        font-size: 18px;
+    }
+    
+    .objetoImpresion h3
+    {
+        font-size: 15px;  
+        padding-top: 12px;  
+    }
+  
+    .objetoNoImpresion, .objetoNoImpresion * , .scroll-to-top, .bootstrap-growl
+    {
+        display: none!important;
+        visibility: hidden!important;
+    }
+    .objetoImpresion table { page-break-after:auto !important }
+    .objetoImpresion tr { page-break-inside:avoid; page-break-after:auto !important }
+    .objetoImpresion td { page-break-inside:avoid; page-break-after:auto !important }
+    .objetoImpresion thead { display:table-header-group !important }
+    .objetoImpresion tfoot { display:table-footer-group !important }
+    
+    #comprobante .bordesExternos 
+    {
+        border-width: 0px 1px 1px 1px;
+        border-style: solid;
+        border-color: Black;
+    }
+    #comprobante .bordeTop
+    {
+        border-top: 1px solid black;
+    }
+    #comprobante .bordeRight
+    {
+        border-right: 1px solid black;
+    }
+    #comprobante .padding
+    {
+        padding: 5px 10px;
+    }
+    #comprobante #tablaDetalle
+    {
+        margin-bottom: 20px;
+    }
+    #comprobante .padding
+    {
+        padding: 5px 10px;
+    }
+    #comprobante .panel-default
+    {
+        border: 1px solid black;
+    }
+    #comprobante .panel-heading
+    {
+        border-bottom: 1px solid black
+    }
+    #comprobante #datosMisEnvios div, #comprobante #resultadosFinales div, #comprobante #datosCliente div
+    {
+        margin-bottom: 5px;
+    }
+    #comprobante .panel-heading h4
+    {
+        font-weight: bold;
+        margin-top: 0px;    
+    }
+    #comprobante .floatRight
+    {
+        float : right;
+    }
+    #comprobante #logo
+    {
+        width: 108px;
+    }
+    #comprobante .panel-heading div .col-md-6.col-xs-6
+    {
+        margin-top: 10px;
+    }
+    #comprobante #facturacion
+    {
+        background-image: url("../../../assets/layouts/layout3/img/fondoLiquidacion.jpg") !important;
+    }
+}
+
+.objetoImpresion, .objetoImpresion *
+{
+    display: none;
+}
+
+.btn.btn-outline.verde {
+    border-color: #ADCE9D!important;
+    color: #000000!important;
+    background: #ADCE9D!important;
+}
+
+.btn.btn-outline.verde:hover, .btn.btn-outline.verde:active, .btn.btn-outline.verde:active:hover, .btn.btn-outline.verde:active:focus, .btn.btn-outline.verde:focus, .btn.btn-outline.verde.active {
+    border-color: #133900!important;
+    color: #FFFFFF!important;
+    background-color: #133900!important;
+}
+
+.bootstrap-switch-verdeOscuro {
+    color: #FFF2BF !important;
+    background-color: #508F30 !important;
+}

@@ -1,0 +1,910 @@
+/* Cubic Bezier Transition */
+/****
+Boby
+****/
+/* line 7, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+body {
+  background-color: #fff;
+}
+
+/* line 10, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+body.page-md {
+  background: white;
+}
+
+/******
+General 
+******/
+/* Theme Font Color */
+/* line 20, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.theme-font {
+  color: #F3C200 !important;
+}
+
+/* Pace - Page Progress */
+/* line 25, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.pace .pace-progress {
+  background: #F3C200;
+}
+
+/* Theme Light Portlet */
+/* line 31, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.portlet.light .btn.btn-circle.btn-icon-only.btn-default {
+  border-color: #bbc2ce;
+}
+
+/* line 34, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.portlet.light .btn.btn-circle.btn-icon-only.btn-default > i {
+  font-size: 13px;
+  color: #a6b0bf;
+}
+
+/* line 39, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.portlet.light .btn.btn-circle.btn-icon-only.btn-default:hover, .portlet.light .btn.btn-circle.btn-icon-only.btn-default.active {
+  color: #fff;
+  background: #F3C200;
+  border-color: #F3C200;
+}
+
+/* line 45, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.portlet.light .btn.btn-circle.btn-icon-only.btn-default:hover > i, .portlet.light .btn.btn-circle.btn-icon-only.btn-default.active > i {
+  color: #fff;
+}
+
+/******
+Page Header 
+******/
+/* line 56, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header {
+  background-color: #fff;
+  /* Page Header Top */
+  /* Page Header Menu */
+}
+
+/* line 60, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top {
+  /* Top menu */
+}
+
+/* line 62, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top.fixed {
+  background: #fff !important;
+  box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.2);
+}
+
+/* line 69, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav {
+  /* Top Links */
+  /* Separator */
+  /* Extended Dropdowns */
+  /* Notification */
+  /* Inbox */
+  /* Tasks */
+  /* User */
+  /* Language */
+  /* Dark version */
+}
+
+/* line 74, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown .separator {
+  border-left: 1px solid #E3E8EC;
+}
+
+/* line 79, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown > .dropdown-toggle > i {
+  color: #C1CCD1;
+}
+
+/* line 83, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown > .dropdown-toggle:active, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown > .dropdown-toggle:focus, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown > .dropdown-toggle:hover {
+  background-color: #fff;
+}
+
+/* line 88, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown > .dropdown-toggle:active > i, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown > .dropdown-toggle:focus > i, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown > .dropdown-toggle:hover > i {
+  color: #a4b4bb;
+}
+
+/* line 93, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown > .dropdown-toggle .badge.badge-default {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+/* line 102, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown:active .dropdown-toggle, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown:focus .dropdown-toggle, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown.open .dropdown-toggle {
+  background-color: #fff;
+}
+
+/* line 105, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown:active .dropdown-toggle > i, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown:focus .dropdown-toggle > i, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown.open .dropdown-toggle > i {
+  color: #a4b4bb;
+}
+
+/* line 115, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-separator .separator {
+  border-left: 1px solid #E3E8EC;
+}
+
+/* line 125, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-extended .dropdown-menu:after {
+  border-bottom-color: #f7f8fa;
+}
+
+/* line 129, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-extended .dropdown-menu > li.external {
+  background: #f7f8fa;
+}
+
+/* line 132, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-extended .dropdown-menu > li.external > h3 {
+  color: #6f949c;
+}
+
+/* line 136, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-extended .dropdown-menu > li.external > a {
+  color: #337ab7;
+}
+
+/* line 139, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-extended .dropdown-menu > li.external > a:hover {
+  color: #23527c;
+  text-decoration: none;
+}
+
+/* line 148, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-extended .dropdown-menu .dropdown-menu-list > li > a {
+  border-bottom: 1px solid #EFF2F6 !important;
+  color: #222222;
+}
+
+/* line 152, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-extended .dropdown-menu .dropdown-menu-list > li > a:hover {
+  background: #f8f9fa;
+}
+
+/* line 167, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-notification .dropdown-menu .dropdown-menu-list > li > a .time {
+  background: #f1f1f1;
+}
+
+/* line 172, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-notification .dropdown-menu .dropdown-menu-list > li > a:hover .time {
+  background: #e4e4e4;
+}
+
+/* line 185, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-toggle > .circle {
+  background-color: #F3C200;
+  color: #ffffff;
+}
+
+/* line 190, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-toggle > .corner {
+  border-color: transparent transparent transparent #F3C200;
+}
+
+/* line 198, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-inbox .dropdown-menu .dropdown-menu-list .subject .from {
+  color: #5b9bd1;
+}
+
+/* line 211, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-tasks .dropdown-menu .dropdown-menu-list .progress {
+  background-color: #dfe2e9;
+}
+
+/* line 222, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > .username {
+  color: #8ea3b6;
+}
+
+/* line 226, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > i {
+  color: #8ea3b6;
+}
+
+/* line 231, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-user > .dropdown-menu {
+  width: 195px;
+}
+
+/* line 238, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-user:hover > .dropdown-toggle > .username,
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-user:hover > .dropdown-toggle > i, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-user.open > .dropdown-toggle > .username,
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-user.open > .dropdown-toggle > i {
+  color: #7089a2;
+}
+
+/* line 250, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-language > .dropdown-toggle > .langname {
+  color: #8ea3b6;
+}
+
+/* line 258, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-language:hover > .dropdown-toggle > .langname, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-language.open > .dropdown-toggle > .langname {
+  color: #7089a2;
+}
+
+/* line 267, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu {
+  background: #3b6923;
+  border: 0;
+}
+
+/* line 271, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu:after {
+  border-bottom-color: #3b6923;
+}
+
+/* line 275, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu > li.external {
+  background: #345d1f;
+}
+
+/* line 278, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu > li.external > h3 {
+  color: #b3de9d;
+}
+
+/* line 283, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu > li.external > a:hover {
+  color: #5496cf;
+}
+
+/* line 292, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu.dropdown-menu-default > li a,
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu .dropdown-menu-list > li a {
+  color: #aaafb7;
+  border-bottom: 1px solid #47802b !important;
+}
+
+/* line 296, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu.dropdown-menu-default > li a > i,
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu .dropdown-menu-list > li a > i {
+  color: #339900;
+}
+
+/* line 300, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu.dropdown-menu-default > li a:hover,
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu .dropdown-menu-list > li a:hover {
+  background: #437828;
+}
+
+/* line 309, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu.dropdown-menu-default > li a {
+  border-bottom: 0 !important;
+}
+
+/* line 313, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu.dropdown-menu-default > li.divider {
+  background: #47802b;
+}
+
+/* line 326, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-notification.dropdown-dark .dropdown-menu .dropdown-menu-list > li > a .time {
+  background: #30561d;
+}
+
+/* line 331, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-notification.dropdown-dark .dropdown-menu .dropdown-menu-list > li > a:hover .time {
+  background: #254316;
+}
+
+/* line 345, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu {
+  background: #508F30;
+  /* Default Mega Menu */
+  /* Light Mega Menu */
+  /* Header seaech box */
+}
+
+/* line 348, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu.fixed {
+  box-shadow: 0px 1px 10px 0px rgba(80, 143, 48, 0.2);
+}
+
+/* line 354, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav {
+  /* Mega menu content */
+  /* Classic menu */
+}
+
+/* line 358, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li.mega-menu-dropdown > .dropdown-menu {
+  box-shadow: 5px 5px rgba(24, 72, 0, 0.2);
+}
+
+/* line 366, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li.mega-menu-dropdown > .dropdown-menu .mega-menu-content .mega-menu-submenu li > h3 {
+  color: #ced5de;
+}
+
+/* line 377, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li > a {
+  color: #FFF2BF;
+}
+
+/* line 380, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li > a > i {
+  color: #FFF2BF;
+}
+
+/* line 385, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li:hover > a,
+.page-header .page-header-menu .hor-menu .navbar-nav > li.open > a,
+.page-header .page-header-menu .hor-menu .navbar-nav > li > a:hover,
+.page-header .page-header-menu .hor-menu .navbar-nav > li > a:focus,
+.page-header .page-header-menu .hor-menu .navbar-nav > li > a:active {
+  color: #508F30;
+  background: #184800 !important;
+}
+
+/* line 393, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li:hover > a > i,
+.page-header .page-header-menu .hor-menu .navbar-nav > li.open > a > i,
+.page-header .page-header-menu .hor-menu .navbar-nav > li > a:hover > i,
+.page-header .page-header-menu .hor-menu .navbar-nav > li > a:focus > i,
+.page-header .page-header-menu .hor-menu .navbar-nav > li > a:active > i {
+  color: #508F30;
+}
+
+/* line 400, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li.active > a,
+.page-header .page-header-menu .hor-menu .navbar-nav > li.active > a:hover, .page-header .page-header-menu .hor-menu .navbar-nav > li.current > a,
+.page-header .page-header-menu .hor-menu .navbar-nav > li.current > a:hover {
+  color: #133900;
+  background: #133900;
+}
+
+/* line 405, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li.active > a > i,
+.page-header .page-header-menu .hor-menu .navbar-nav > li.active > a:hover > i, .page-header .page-header-menu .hor-menu .navbar-nav > li.current > a > i,
+.page-header .page-header-menu .hor-menu .navbar-nav > li.current > a:hover > i {
+  color: #FFF2BF;
+}
+
+/* line 411, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu {
+  box-shadow: 5px 5px rgba(24, 72, 0, 0.2);
+  background: #184800;
+}
+
+/* line 417, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li > a {
+  color: #ced5de;
+}
+
+/* line 420, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li > a > i {
+  color: #339900;
+}
+
+/* line 426, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li:hover > a {
+  color: #ced5de;
+  background: #1f5d00;
+}
+
+/* line 430, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li:hover > a > i {
+  color: #339900;
+}
+
+/* line 438, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.active > a,
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.active > a:hover, .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.current > a,
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.current > a:hover {
+  color: #ced5de;
+  background: #1f5d00;
+}
+
+/* line 443, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.active > a > i,
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.active > a:hover > i, .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.current > a > i,
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.current > a:hover > i {
+  color: #339900;
+}
+
+/* line 449, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.divider {
+  background-color: #216200;
+}
+
+/* line 456, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-submenu > a:after {
+  color: #339900;
+}
+
+/* line 466, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav {
+  /* Mega menu content */
+  /* Classic menu */
+}
+
+/* line 470, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li.mega-menu-dropdown > .dropdown-menu {
+  box-shadow: 5px 5px rgba(24, 72, 0, 0.2);
+}
+
+/* line 478, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li.mega-menu-dropdown > .dropdown-menu .mega-menu-content .mega-menu-submenu li > h3 {
+  color: #555;
+}
+
+/* line 489, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li > a {
+  color: #FFF2BF;
+}
+
+/* line 492, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li > a > i {
+  color: #FFF2BF;
+}
+
+/* line 497, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li > a:hover {
+  color: #508F30;
+  background: #184800;
+}
+
+/* line 501, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li > a:hover > i {
+  color: #508F30;
+}
+
+/* line 506, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li:hover > a,
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li.open > a {
+  color: #133900 !important;
+  background: #fafafc !important;
+}
+
+/* line 511, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li:hover > a > i,
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li.open > a > i {
+  color: #133900 !important;
+}
+
+/* line 518, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li.active > a,
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li.active > a:hover, .page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li.current > a,
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li.current > a:hover {
+  color: #133900;
+  background: #133900;
+}
+
+/* line 523, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li.active > a > i,
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li.active > a:hover > i, .page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li.current > a > i,
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li.current > a:hover > i {
+  color: #FFF2BF;
+}
+
+/* line 529, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu {
+  box-shadow: 5px 5px rgba(24, 72, 0, 0.2);
+  background: #fafafc;
+}
+
+/* line 535, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li > a {
+  color: #133900;
+}
+
+/* line 538, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li > a > i {
+  color: #339900;
+}
+
+/* line 544, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li:hover > a {
+  color: #133900;
+  background: #eaeaf2;
+}
+
+/* line 548, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li:hover > a > i {
+  color: #133900;
+}
+
+/* line 556, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li.active > a,
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li.active > a:hover, .page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li.current > a,
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li.current > a:hover {
+  color: #133900;
+  background: #eaeaf2;
+}
+
+/* line 561, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li.active > a > i,
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li.active > a:hover > i, .page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li.current > a > i,
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li.current > a:hover > i {
+  color: #339900;
+}
+
+/* line 567, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li .dropdown-menu li.divider {
+  background-color: #ededf4;
+}
+
+/* line 573, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .hor-menu.hor-menu-light .navbar-nav > li > .dropdown-menu {
+  border: 1px solid #eaeaf2;
+  border-top: 0;
+}
+
+/* line 582, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .search-form {
+  background: #133900;
+}
+
+/* line 585, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .search-form .input-group {
+  background: #133900;
+}
+
+/* line 588, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .search-form .input-group .form-control {
+  color: #ffcc00;
+  background: #133900;
+}
+
+/* line 36, H:/Desarrollo/MisEnvios/SASS/sass/global/components/_mixins.scss */
+.page-header .page-header-menu .search-form .input-group .form-control::-moz-placeholder {
+  color: #fac800;
+  opacity: 1;
+}
+
+/* line 37, H:/Desarrollo/MisEnvios/SASS/sass/global/components/_mixins.scss */
+.page-header .page-header-menu .search-form .input-group .form-control:-ms-input-placeholder {
+  color: #fac800;
+}
+
+/* line 38, H:/Desarrollo/MisEnvios/SASS/sass/global/components/_mixins.scss */
+.page-header .page-header-menu .search-form .input-group .form-control::-webkit-input-placeholder {
+  color: #fac800;
+}
+
+/* line 596, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-header .page-header-menu .search-form .input-group .input-group-btn .btn.submit > i {
+  color: #ffcc00;
+}
+
+/******
+Page Footer 
+******/
+/* line 609, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-prefooter {
+  background: #549733;
+  color: #b3de9d;
+}
+
+/* line 613, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-prefooter h2 {
+  color: #F3C200;
+}
+
+/* line 617, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-prefooter a {
+  color: #F3C200;
+}
+
+/* line 622, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-prefooter .subscribe-form .form-control {
+  background: #417427;
+  border-color: #417427;
+  color: #b3de9d;
+}
+
+/* line 36, H:/Desarrollo/MisEnvios/SASS/sass/global/components/_mixins.scss */
+.page-prefooter .subscribe-form .form-control::-moz-placeholder {
+  color: #a4d88a;
+  opacity: 1;
+}
+
+/* line 37, H:/Desarrollo/MisEnvios/SASS/sass/global/components/_mixins.scss */
+.page-prefooter .subscribe-form .form-control:-ms-input-placeholder {
+  color: #a4d88a;
+}
+
+/* line 38, H:/Desarrollo/MisEnvios/SASS/sass/global/components/_mixins.scss */
+.page-prefooter .subscribe-form .form-control::-webkit-input-placeholder {
+  color: #a4d88a;
+}
+
+/* line 630, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-prefooter .subscribe-form .btn {
+  color: #fff;
+  background-color: #ffcc03;
+  border-color: #ffcc03;
+}
+
+/* line 11, H:/Desarrollo/MisEnvios/SASS/sass/bootstrap/mixins/_buttons.scss */
+.page-prefooter .subscribe-form .btn:focus, .page-prefooter .subscribe-form .btn.focus {
+  color: #fff;
+  background-color: #cfa500;
+  border-color: #836800;
+}
+
+/* line 17, H:/Desarrollo/MisEnvios/SASS/sass/bootstrap/mixins/_buttons.scss */
+.page-prefooter .subscribe-form .btn:hover {
+  color: #fff;
+  background-color: #cfa500;
+  border-color: #c59d00;
+}
+
+/* line 22, H:/Desarrollo/MisEnvios/SASS/sass/bootstrap/mixins/_buttons.scss */
+.page-prefooter .subscribe-form .btn:active, .page-prefooter .subscribe-form .btn.active,
+.open > .page-prefooter .subscribe-form .btn.dropdown-toggle {
+  color: #fff;
+  background-color: #cfa500;
+  border-color: #c59d00;
+}
+
+/* line 29, H:/Desarrollo/MisEnvios/SASS/sass/bootstrap/mixins/_buttons.scss */
+.page-prefooter .subscribe-form .btn:active:hover, .page-prefooter .subscribe-form .btn:active:focus, .page-prefooter .subscribe-form .btn:active.focus, .page-prefooter .subscribe-form .btn.active:hover, .page-prefooter .subscribe-form .btn.active:focus, .page-prefooter .subscribe-form .btn.active.focus,
+.open > .page-prefooter .subscribe-form .btn.dropdown-toggle:hover,
+.open > .page-prefooter .subscribe-form .btn.dropdown-toggle:focus,
+.open > .page-prefooter .subscribe-form .btn.dropdown-toggle.focus {
+  color: #fff;
+  background-color: #ac8900;
+  border-color: #836800;
+}
+
+/* line 37, H:/Desarrollo/MisEnvios/SASS/sass/bootstrap/mixins/_buttons.scss */
+.page-prefooter .subscribe-form .btn:active, .page-prefooter .subscribe-form .btn.active,
+.open > .page-prefooter .subscribe-form .btn.dropdown-toggle {
+  background-image: none;
+}
+
+/* line 45, H:/Desarrollo/MisEnvios/SASS/sass/bootstrap/mixins/_buttons.scss */
+.page-prefooter .subscribe-form .btn.disabled:hover, .page-prefooter .subscribe-form .btn.disabled:focus, .page-prefooter .subscribe-form .btn.disabled.focus, .page-prefooter .subscribe-form .btn[disabled]:hover, .page-prefooter .subscribe-form .btn[disabled]:focus, .page-prefooter .subscribe-form .btn[disabled].focus,
+fieldset[disabled] .page-prefooter .subscribe-form .btn:hover,
+fieldset[disabled] .page-prefooter .subscribe-form .btn:focus,
+fieldset[disabled] .page-prefooter .subscribe-form .btn.focus {
+  background-color: #ffcc03;
+  border-color: #ffcc03;
+}
+
+/* line 53, H:/Desarrollo/MisEnvios/SASS/sass/bootstrap/mixins/_buttons.scss */
+.page-prefooter .subscribe-form .btn .badge {
+  color: #ffcc03;
+  background-color: #fff;
+}
+
+/* line 636, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-footer {
+  background: #47802b;
+  color: #b3de9d;
+}
+
+/* Scroll Top */
+/* line 644, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.scroll-to-top > i {
+  color: #72c249;
+  font-size: 32px;
+  opacity: 0.7 ;
+  filter: alpha(opacity=70) ;
+}
+
+@media (min-width: 992px) {
+  /* 992px */
+  /* line 652, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header {
+    /* Page Header Menu */
+  }
+  /* line 655, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu.fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9995;
+  }
+}
+
+@media (max-width: 991px) {
+  /* 991px */
+  /* line 669, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu {
+    background: #eff3f8;
+    /* Horizontal mega menu */
+  }
+  /* line 674, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav {
+    background: #fff !important;
+    /* Mega menu content */
+    /* Classic menu */
+  }
+  /* line 680, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.mega-menu-dropdown > .dropdown-menu {
+    box-shadow: none;
+  }
+  /* line 685, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.mega-menu-dropdown > .dropdown-menu .mega-menu-content .mega-menu-submenu {
+    border-right: none !important;
+  }
+  /* line 689, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.mega-menu-dropdown > .dropdown-menu .mega-menu-content .mega-menu-submenu li > h3 {
+    color: #72808a;
+  }
+  /* line 699, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li {
+    border-bottom: 1px solid #F0F0F0;
+  }
+  /* line 702, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li:last-child {
+    border-bottom: 0;
+  }
+  /* line 706, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li > a {
+    background: none !important;
+    color: #666 !important;
+  }
+  /* line 710, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li > a > i {
+    color: #666 !important;
+  }
+  /* line 714, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li > a:focus, .page-header .page-header-menu .hor-menu .navbar-nav > li > a:active, .page-header .page-header-menu .hor-menu .navbar-nav > li > a:hover {
+    background: none !important;
+  }
+  /* line 722, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li:hover > a {
+    background: none !important;
+    color: #F3C200 !important;
+  }
+  /* line 726, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li:hover > a > i {
+    color: #F3C200 !important;
+  }
+  /* line 735, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.open > a,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.open > a:hover, .page-header .page-header-menu .hor-menu .navbar-nav > li.active > a,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.active > a:hover, .page-header .page-header-menu .hor-menu .navbar-nav > li.current > a,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.current > a:hover {
+    color: #fff !important;
+    background: #F3C200 !important;
+  }
+  /* line 740, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.open > a > i,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.open > a:hover > i, .page-header .page-header-menu .hor-menu .navbar-nav > li.active > a > i,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.active > a:hover > i, .page-header .page-header-menu .hor-menu .navbar-nav > li.current > a > i,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.current > a:hover > i {
+    color: #fff !important;
+  }
+  /* line 746, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu {
+    border: 0 !important;
+    border-top: 1px solid #eee;
+    box-shadow: none !important;
+    background: #fff !important;
+  }
+  /* line 753, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.divider {
+    border-bottom: 1px solid #F0F0F0;
+  }
+  /* line 757, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li:first-child {
+    margin-top: 1px;
+  }
+  /* line 761, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li > a {
+    color: #666 !important;
+  }
+  /* line 764, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li > a > i {
+    color: #666 !important;
+  }
+  /* line 770, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li:hover > a {
+    background: none !important;
+    color: #F3C200 !important;
+  }
+  /* line 774, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li:hover > a > i {
+    color: #F3C200 !important;
+  }
+  /* line 783, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.open > a,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.open > a:hover, .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.active > a,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.active > a:hover, .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.current > a,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.current > a:hover {
+    color: #fff !important;
+    background: #F3C200 !important;
+  }
+  /* line 788, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.open > a > i,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.open > a:hover > i, .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.active > a > i,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.active > a:hover > i, .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.current > a > i,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li.current > a:hover > i {
+    color: #fff !important;
+  }
+  /* line 799, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.classic-menu-dropdown .dropdown-menu > li.dropdown-submenu.active > a:after,
+  .page-header .page-header-menu .hor-menu .navbar-nav > li.classic-menu-dropdown .dropdown-menu > li.dropdown-submenu.open > a:after {
+    color: #fff !important;
+  }
+  /* line 807, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .nav {
+    border: 0 !important;
+    margin: 0 !important;
+  }
+  /* line 811, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .nav .dropdown-submenu.open > a,
+  .page-header .page-header-menu .hor-menu .nav .dropdown-submenu.open > a:hover {
+    border: 0 !important;
+    margin: 0 !important;
+    color: #fff !important;
+    background: #ffce0e !important;
+  }
+  /* line 818, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .page-header-menu .hor-menu .nav .dropdown-submenu.open > a > i,
+  .page-header .page-header-menu .hor-menu .nav .dropdown-submenu.open > a:hover > i {
+    color: #fff !important;
+  }
+  /* line 826, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .search-form {
+    background: #fff !important;
+  }
+  /* line 829, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .search-form .input-group {
+    background: #fff !important;
+  }
+  /* line 832, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .search-form .input-group .form-control {
+    background: #fff !important;
+  }
+  /* line 837, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .search-form .input-group .input-group-btn .btn.submit {
+    background: #F3C200;
+  }
+  /* line 838, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .search-form .input-group .input-group-btn .btn.submit i {
+    color: #fff !important;
+  }
+  /* line 844, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .search-form .input-group .input-group-btn .btn.submit:hover, .page-header .search-form .input-group .input-group-btn .btn.submit:focus, .page-header .search-form .input-group .input-group-btn .btn.submit:active, .page-header .search-form .input-group .input-group-btn .btn.submit.active {
+    background: #caa100;
+  }
+}
+
+@media (max-width: 480px) {
+  /* 480px */
+  /* line 859, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header {
+    /* Top menu */
+  }
+  /* line 861, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .top-menu {
+    background-color: #fff;
+  }
+  /* line 864, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header-fixed-mobile .page-header .top-menu {
+    background-color: #fff;
+  }
+  /* line 870, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle {
+    background-color: white;
+  }
+  /* line 873, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header-fixed-mobile .page-header .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle {
+    background: none;
+  }
+  /* line 877, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+  .page-header .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle:hover {
+    background-color: #fff;
+  }
+}
+
+/****
+ CSS3 Spinner Bar
+****/
+/* line 892, H:/Desarrollo/MisEnvios/SASS/sass/layouts/layout3/themes/_base.scss */
+.page-spinner-bar > div,
+.block-spinner-bar > div {
+  background: #ffce0e;
+}
+
+/*# sourceMappingURL=../../../../assets/layouts/layout3/themes/misenvios.com.map */

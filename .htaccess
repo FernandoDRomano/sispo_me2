@@ -1,0 +1,118 @@
+#Options +FollowSymLinks
+
+#Options -Indexes
+
+DirectoryIndex index.html index.php
+
+RewriteEngine on
+
+<IfModule mod_headers.c>
+	Header unset ETag
+        Header set Connection keep-alive
+        FileETag None
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault A2592000
+ 
+<FilesMatch "\.(txt|xml|js)$">
+ExpiresDefault A2592000
+</FilesMatch>
+ 
+<FilesMatch "\.(css)$">
+ExpiresDefault A2592000
+</FilesMatch>
+ 
+<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav|mp4|m4v|ogg|webm|aac)$">
+ExpiresDefault A2592000
+</FilesMatch>
+ 
+<FilesMatch "\.(jpg|jpeg|png|gif|swf|webp)$">
+ExpiresDefault A2592000
+</FilesMatch>
+</IfModule>
+ 
+<IfModule mod_headers.c>
+  <FilesMatch "\.(txt|xml|js)$">
+   Header set Cache-Control "max-age=2592000"
+  </FilesMatch>
+ 
+  <FilesMatch "\.(css)$">
+   Header set Cache-Control "max-age=2592000"
+  </FilesMatch>
+ 
+  <FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav|mp4|m4v|ogg|webm|aac)$">
+   Header set Cache-Control "max-age=2592000"
+  </FilesMatch>
+ 
+  <FilesMatch "\.(jpg|jpeg|png|gif|swf|webp)$">
+   Header set Cache-Control "max-age=2592000"
+  </FilesMatch>
+</IfModule>
+
+# Forzar SSL #
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# END: Forzar SSL #
+RewriteCond $1 !^(index\.php|css|Scripts|images|uploads)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/ [L,QSA]
+
+#INICIO GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+#FIN GZIP
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_value date.timezone "America/Argentina/Tucuman"
+   php_value mysql.connect_timeout 120
+   php_value upload_max_filesize -1
+   php_value post_max_size -1
+   php_value max_execution_time 0
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_input_time 0
+   php_value max_input_vars 1000
+   php_value memory_limit -1
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php56"
+   php_value session.cookie_path "/"
+   php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+   php_value date.timezone "America/Argentina/Tucuman"
+   php_value mysql.connect_timeout 120
+   php_value upload_max_filesize -1
+   php_value post_max_size -1
+   php_value max_execution_time 0
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_input_time 0
+   php_value max_input_vars 1000
+   php_value memory_limit -1
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php56"
+   php_value session.cookie_path "/"
+   php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^sispo\.com\.ar$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sispo\.com\.ar$
+RewriteRule ^/?$ "https\:\/\/sispo\.com\.ar\/" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

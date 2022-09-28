@@ -1,0 +1,197 @@
+input[type="file" i] {
+	-webkit-appearance: initial;
+	background-color: initial;
+	cursor: default;
+	align-items: baseline;
+	color: inherit;
+	text-align: start;
+	padding: initial;
+	border: initial;
+
+	align-items:baseline;
+	background-color:rgba(0, 0, 0, 0);
+	border-bottom-color:rgb(0, 0, 0);
+	border-bottom-style:none;
+	border-bottom-width:0px;
+	border-image-outset:0px;
+	border-image-repeat:stretch;
+	border-image-slice:100%;
+	border-image-source:none;
+	border-image-width:1;
+	border-left-color:rgb(0, 0, 0);
+	border-left-style:none;
+	border-left-width:0px;
+	border-right-color:rgb(0, 0, 0);
+	border-right-style:none;
+	border-right-width:0px;
+	border-top-color:rgb(0, 0, 0);
+	border-top-style:none;
+	border-top-width:0px;
+	box-sizing:content-box;
+	color:rgb(0, 0, 0);
+	cursor:default;
+	display:inline-block;
+	filter:none;
+	font-family:Arial;
+	font-size:13.3333px;
+	font-stretch:100%;
+	font-style:normal;
+	font-variant-caps:normal;
+	font-variant-east-asian:normal;
+	font-variant-ligatures:normal;
+	font-variant-numeric:normal;
+	font-weight:400;
+	height:21px;
+	letter-spacing:normal;
+	line-height:normal;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	min-width:0px;
+	opacity:1;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	text-align:start;
+	text-indent:0px;
+	text-rendering:auto;
+	text-shadow:none;
+	text-transform:none;
+	width:307px;
+	word-spacing:0px;
+	writing-mode:horizontal-tb;
+	-webkit-appearance:none;
+	-webkit-rtl-ordering:logical;
+	-webkit-border-image:none;
+}
+
+.SpanFile {
+	/* text-align: center; *
+	text-align: left;
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(221, 221, 221);
+    /* border-bottom-left-radius: 4px; */
+    /* border-bottom-right-radius: 4px; */
+    border-bottom-style: solid;
+    /* border-bottom-width: 1.1875px; */
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    /* border-left-color: rgb(221, 221, 221); */
+    /* border-right-color: rgb(221, 221, 221); */
+    /* border-top-color: rgb(221, 221, 221); */
+	border-color: #0068a9;
+    border-left-style: solid;
+    border-left-width: 1.1875px;
+    border-right-style: solid;
+    border-right-width: 1.1875px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: solid;
+    border-top-width: 1.1875px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 3.2px 6.4px 0px inset;
+    box-sizing: content-box;
+    color: rgb(85, 85, 85);
+    cursor: default;
+    /* display: block; */
+	display: table-cell;
+    line-height: 24px;
+    position: relative;
+    user-select: none;
+    width: 100vh;
+    z-index: 5;
+}
+
+
+.SpanFile:hover::before {
+  border-color: black;
+}
+.SpanFile:active {
+  outline: 0;
+}
+.SpanFile:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+}
+
+.SpanFile:before {
+background-color: #0068a9!important;
+content: 'Select some files';
+color: #fff;
+display: inline-block;
+/* background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3); */
+border: 1px solid #999;
+border-radius: 3px;
+padding: 5px 8px;
+outline: none;
+white-space: nowrap;
+-webkit-user-select: none;
+cursor: pointer;
+text-shadow: 1px 1px #000;
+font-weight: 700;
+font-size: 10pt;
+
+	position: absolute;
+	right: 0rem;
+	z-index: 6;
+	display: block;
+	content: "Seleccionar Archivo/s";
+	padding: .0rem 1rem;
+	line-height: 1.5;
+	background-color: #eee;
+	border: .075rem solid #ddd;
+	border-radius: 0 .25rem .25rem 0;
+}
+
+ul.IconFiles{
+    list-style: none;
+}
+ul li.IconFiles i {
+    padding: 5px;
+    border-radius: 5px;
+	color: #0068a9;
+    width: 36px;
+    height: 36px;
+}
+
+ul li.IconFiles {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	
+    border-color: #0068a9;
+    border-bottom-style: double;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-bottom-left-radius: 10px!important;
+}
+
+.ListaDeArchivos{
+    border-color: #0068a9;
+    border-style: double;
+}
+
+.ListaDeArchivos b{
+    border-color: #0068a9;
+    border-style: double;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

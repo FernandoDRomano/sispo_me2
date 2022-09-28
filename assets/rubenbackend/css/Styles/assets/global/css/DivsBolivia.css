@@ -1,0 +1,188 @@
+.btn.DivBolivia:not(.btn-outline) {
+color: #ffffff;
+background-color: #4C8219;
+border-color: #4C8219; }
+.btn.DivBolivia:not(.btn-outline):focus, .btn.DivBolivia:not(.btn-outline).focus {
+color: #ffffff;
+background-color: #ae27e7;
+border-color: #8013ae; }
+.btn.DivBolivia:not(.btn-outline):hover {
+color: #ffffff;
+background-color: #ae27e7;
+border-color: #aa1ee6; }
+.btn.DivBolivia:not(.btn-outline):active, .btn.DivBolivia:not(.btn-outline).active,
+.open > .btn.DivBolivia:not(.btn-outline).dropdown-toggle {
+color: #ffffff;
+background-color: #ae27e7;
+border-color: #aa1ee6; }
+.btn.DivBolivia:not(.btn-outline):active:hover, .btn.DivBolivia:not(.btn-outline):active:focus, .btn.DivBolivia:not(.btn-outline):active.focus, .btn.DivBolivia:not(.btn-outline).active:hover, .btn.DivBolivia:not(.btn-outline).active:focus, .btn.DivBolivia:not(.btn-outline).active.focus,
+.open > .btn.DivBolivia:not(.btn-outline).dropdown-toggle:hover,
+.open > .btn.DivBolivia:not(.btn-outline).dropdown-toggle:focus,
+.open > .btn.DivBolivia:not(.btn-outline).dropdown-toggle.focus {
+color: #ffffff;
+background-color: #9b18d3;
+border-color: #8013ae; }
+.btn.DivBolivia:not(.btn-outline):active, .btn.DivBolivia:not(.btn-outline).active,
+.open > .btn.DivBolivia:not(.btn-outline).dropdown-toggle {
+background-image: none; }
+.btn.DivBolivia:not(.btn-outline).disabled:hover, .btn.DivBolivia:not(.btn-outline).disabled:focus, .btn.DivBolivia:not(.btn-outline).disabled.focus, .btn.DivBolivia:not(.btn-outline)[disabled]:hover, .btn.DivBolivia:not(.btn-outline)[disabled]:focus, .btn.DivBolivia:not(.btn-outline)[disabled].focus,
+fieldset[disabled] .btn.DivBolivia:not(.btn-outline):hover,
+fieldset[disabled] .btn.DivBolivia:not(.btn-outline):focus,
+fieldset[disabled] .btn.DivBolivia:not(.btn-outline).focus {
+background-color: #4C8219;
+border-color: #4C8219; }
+.btn.DivBolivia:not(.btn-outline) .badge {
+color: #4C8219;
+background-color: #ffffff; }
+.btn.btn-outline.DivBolivia {
+border-color: #4C8219;
+color: #4C8219;
+background: none; }
+.btn.btn-outline.DivBolivia:hover, .btn.btn-outline.DivBolivia:active, .btn.btn-outline.DivBolivia:active:hover, .btn.btn-outline.DivBolivia:active:focus, .btn.btn-outline.DivBolivia:focus, .btn.btn-outline.DivBolivia.active {
+border-color: #4C8219;
+color: #ffffff;
+background-color: #4C8219; }
+.btn.DivBolivia-stripe {
+border-left: 4px solid #4C8219 !important; }
+.btn.DivBolivia.btn-no-border:not(.active) {
+border-color: transparent; }
+.form-control.DivBolivia {
+border-color: #4C8219; }
+.form-control.DivBolivia:focus {
+border-color: #ae27e7; }
+.form-control.focus-DivBolivia:focus {
+border-color: #4C8219; }
+.portlet > .portlet-body.DivBolivia,
+.portlet.DivBolivia {
+background-color: #4C8219; }
+.portlet.solid.DivBolivia > .portlet-title,
+.portlet.solid.DivBolivia > .portlet-body {
+border: 0;
+color: #ffffff; }
+.portlet.solid.DivBolivia > .portlet-title > .caption {
+font-weight: 400; }
+.portlet.solid.DivBolivia > .portlet-title > .caption > i {
+color: #ffffff; }
+.portlet.solid.DivBolivia > .portlet-title > .tools > a.remove {
+background-image: url(../img/portlet-remove-icon-white.png); }
+.portlet.solid.DivBolivia > .portlet-title > .tools > a.config {
+background-image: url(../img/portlet-config-icon-white.png); }
+.portlet.solid.DivBolivia > .portlet-title > .tools > a.reload {
+background-image: url(../img/portlet-reload-icon-white.png); }
+.portlet.solid.DivBolivia > .portlet-title > .tools > a.expand {
+background-image: url(../img/portlet-expand-icon-white.png); }
+.portlet.solid.DivBolivia > .portlet-title > .tools > a.collapse {
+background-image: url(../img/portlet-collapse-icon-white.png); }
+.portlet.solid.DivBolivia > .portlet-title > .tools > a.fullscreen {
+color: #fdfdfd; }
+.portlet.box.DivBolivia {
+border: 1px solid #d083f1;
+border-top: 0; }
+.portlet.box.DivBolivia > .portlet-title {
+background-color: #4C8219; }
+.portlet.box.DivBolivia > .portlet-title > .caption {
+color: #ffffff; }
+.portlet.box.DivBolivia > .portlet-title > .caption > i {
+color: #ffffff; }
+.portlet.box.DivBolivia > .portlet-title > .actions .btn-default {
+background: transparent !important;
+background-color: transparent !important;
+border: 1px solid #e5baf7;
+color: #eed1fa; }
+.portlet.box.DivBolivia > .portlet-title > .actions .btn-default > i {
+color: #f3dffb; }
+.portlet.box.DivBolivia > .portlet-title > .actions .btn-default:hover, .portlet.box.DivBolivia > .portlet-title > .actions .btn-default:focus, .portlet.box.DivBolivia > .portlet-title > .actions .btn-default:active, .portlet.box.DivBolivia > .portlet-title > .actions .btn-default.active {
+border: 1px solid #f6e8fc;
+color: white; }
+.progress-bar.DivBolivia {
+background: #4C8219 !important;
+color: #ffffff !important; }
+.dashboard-stat.DivBolivia {
+background-color: #4C8219; }
+.dashboard-stat.DivBolivia.dashboard-stat-light:hover {
+background-color: #b843ea; }
+.dashboard-stat.DivBolivia .visual > i {
+color: #ffffff;
+opacity: 0.1;
+filter: alpha(opacity=10); }
+.dashboard-stat.DivBolivia .details .number {
+color: #ffffff; }
+.dashboard-stat.DivBolivia .details .desc {
+color: #ffffff;
+opacity: 1;
+filter: alpha(opacity=100); }
+.dashboard-stat.DivBolivia .more {
+color: #ffffff;
+background-color: #b843ea; }
+.mt-element-list .list-default.mt-list-head.DivBolivia {
+background-color: #4C8219;
+color: #ffffff; }
+.mt-element-list .list-default.mt-list-head.DivBolivia .badge {
+background-color: #d083f1;
+color: #ffffff; }
+.mt-element-list .list-default.mt-list-head.DivBolivia.ext-1 .badge {
+background-color: #ae27e7; }
+.mt-element-list .list-default.mt-list-head.DivBolivia .list-label {
+color: white; }
+.mt-element-list .list-default.mt-list-head.DivBolivia .list-date {
+color: white; }
+.mt-element-list .list-todo.mt-list-head.DivBolivia {
+background-color: #4C8219;
+color: #ffffff; }
+.mt-element-list .list-todo .list-count.DivBolivia {
+background-color: #4C8219;
+color: #ffffff; }
+.mt-element-list .list-todo .list-count.DivBolivia:hover {
+background-color: #b63ee9; }
+.mt-element-list .list-todo .list-todo-line.DivBolivia {
+border-color: #4C8219; }
+.mt-element-list .list-todo .list-todo-item.DivBolivia:after {
+border-right-color: #4C8219 !important; }
+.mt-element-list .list-todo .list-todo-item.DivBolivia .list-toggle {
+background: #4C8219;
+color: #ffffff !important; }
+.mt-element-list .list-todo .list-todo-item.DivBolivia .list-toggle > .badge {
+color: #4C8219;
+background: #ffffff; }
+.mt-element-list .list-todo-item.DivBolivia:after {
+border-right-color: #4C8219; }
+.mt-element-list .list-todo-item.DivBolivia .list-toggle {
+background: #4C8219; }
+.bg-DivBolivia {
+background: #4C8219 !important; }
+.bg-DivBolivia-opacity {
+background: rgba(191, 85, 236, 0.8) !important; }
+.bg-hover-DivBolivia:hover {
+background: #4C8219 !important; }
+.font-DivBolivia {
+color: #4C8219 !important; }
+.bg-font-DivBolivia {
+color: #ffffff !important; }
+.border-DivBolivia {
+border-color: #4C8219 !important; }
+.border-top-DivBolivia {
+border-top-color: #4C8219 !important; }
+.border-bottom-DivBolivia {
+border-bottom-color: #4C8219 !important; }
+.border-left-DivBolivia {
+border-left-color: #4C8219 !important; }
+.border-right-DivBolivia {
+border-right-color: #4C8219 !important; }
+.bg-before-DivBolivia:before,
+.bg-after-DivBolivia:after {
+background: #4C8219 !important; }
+.border-before-DivBolivia:before,
+.border-after-DivBolivia:after {
+border-color: #4C8219 !important; }
+.border-top-before-DivBolivia:before,
+.border-top-after-DivBolivia:after {
+border-top-color: #4C8219 !important; }
+.border-bottom-before-DivBolivia:before,
+.border-bottom-after-DivBolivia:after {
+border-bottom-color: #4C8219 !important; }
+.border-left-before-DivBolivia:before,
+.border-left-after-DivBolivia:after {
+border-left-color: #4C8219 !important; }
+.border-right-before-DivBolivia:before,
+.border-right-after-DivBolivia:after {
+border-right-color: #4C8219 !important; }

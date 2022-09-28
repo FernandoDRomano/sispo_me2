@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans&subset=latin,latin-ext,cyrillic);
+@import 'http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,greek-ext,cyrillic-ext,greek,vietnamese,cyrillic,latin-ext';
+
+ul#css3menu1 ul{
+	visibility:hidden;position:absolute;left:100%;top:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";opacity:0;-moz-transition:all 0.5s;-webkit-transition:opacity 0.5s;-o-transition:opacity 0.5s,visibility 0.5s;transition:opacity 0.5s;background-color:#0d0d0f;border-width:2px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-style:solid;border-color:#313337;padding:0;filter:alpha(opacity=80)}
+ul#css3menu1 li:hover>ul{
+	visibility:visible;opacity:1;}
+ul#css3menu1 li{
+	position:relative;display:block;white-space:nowrap;font-size:0;}
+ul#css3menu1 li:hover{
+	z-index:1;}
+ul#css3menu1 ul ul{
+	position:absolute;left:100%;top:0;}
+ul#css3menu1>li:hover>ul{
+	opacity:0.8;}
+ul#css3menu1{
+	font-size:0;z-index:999;position:relative;display:block;float:left;padding:0 7px 7px;background-color:none;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;}
+ul#css3menu1>li{
+	margin:7px 0 0;}
+ul#css3menu1 a:active, ul#css3menu1 a:focus{
+	outline-style:none;}
+ul#css3menu1 a{
+	display:block;vertical-align:middle;text-align:left;text-decoration:none;font:15px Noto Sans,Arial,Helvetica,sans-serif;color:#000000;cursor:pointer;padding:3px;background-color:;background-repeat:repeat;border-width:0px;border-style:none;border-color:;}
+ul#css3menu1 ul li{
+	float:none;margin:0;}
+ul#css3menu1 ul a{
+	text-align:left;padding:8px 12px;background-color:#0d0d0f;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;font:14px Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;color:#9498A0;text-decoration:none;}
+ul#css3menu1 li:hover>a,ul#css3menu1 li a.pressed{
+	border-style:none;color:#FFFFFF;text-decoration:none;}
+ul#css3menu1 img{
+	border:none;vertical-align:middle;margin-right:3px;}
+ul#css3menu1 span{
+	display:block;overflow:visible;background-image:url("arrowsub0.png");background-position:right center;background-repeat:no-repeat;padding-right:23px;}
+ul#css3menu1 li:hover>a>span{
+	background-image:url("arrowsub1.png");}
+ul#css3menu1 ul span{
+	background-image:url("arrowsub0.png");padding-right:17px;}
+ul#css3menu1 ul li:hover > a span{
+	background-image:url("arrowsub1.png");}
+ul#css3menu1 ul li:hover>a,ul#css3menu1 ul li a.pressed{
+	background-color:#0d0d0f;color:#34AE93;text-decoration:none;}
+ul#css3menu1>li>a{
+	padding:10px 14px;}
+ul#css3menu1 li.topmenu>a{
+	background-color:transparent;border-width:2px;border-style:solid;border-color:#BBBBBB;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-moz-transition:all 0.5s;-webkit-transition:all 0.5s;-o-transition:all 0.5s;padding:10px 14px;color:#BBBBBB;}
+ul#css3menu1 li.topmenu:hover>a,ul#css3menu1 li.topmenu a.pressed{
+	background-color:#86DbC8;border-style:solid;border-color:#86DbC8;color:#314F49;}

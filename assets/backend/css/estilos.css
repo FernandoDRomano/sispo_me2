@@ -1,0 +1,41 @@
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+.sub-esquema{
+    padding: 0 0 1.5rem 0;
+    border: 1px solid lightgray;
+    margin: 2rem 0;
+    border-radius: 0 0 1rem 1rem;
+    transition: all .5s ease-in-out;
+}
+
+.cabecera{
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightslategray;
+}
+
+.d-none{
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+    border-color: rgba(118, 118, 118, 0.3);
+    color: -internal-light-dark(graytext, rgb(170, 170, 170));
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}

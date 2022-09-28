@@ -1,0 +1,1 @@
+[08-Jun-2020 20:23:19 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/sispoc5/public_html/vendor/doctrine/inflector/tests/Doctrine/Tests/DoctrineTestCase.php on line 9

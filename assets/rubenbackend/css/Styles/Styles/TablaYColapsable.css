@@ -1,0 +1,58 @@
+	
+	#DivDeTabla{
+		//overflow-x: scroll;
+		//margin: 0 auto;
+		//white-space: nowrap;
+		//max-width: 960px;
+		//width: auto;
+		//height: 300px;
+	}
+	#PiezasDeHDR{
+		//display: block;
+		//overflow-x: auto;
+		//white-space: nowrap;
+	}
+	
+	
+	.collapsible {
+		border-color: #374a8e;
+		background-color: #292d57;
+		color: white;
+		cursor: pointer;
+		//padding: 18px;
+		width: 100%;
+		//border: none;
+		//border: solid;
+		text-align: left;
+		outline: none;
+		font-size: 15px;
+	}
+	button.active, .collapsible:hover {
+		background-color: #374a8e;
+		content: "\2212";
+	}
+	
+	button.active[readonly],button[readonly],.collapsible:hover[readonly] {
+		border-color: #eee;
+		background-color: #eee;
+		content: "\2212";
+	}
+	
+	.collapsible:after {
+		content: '\002B';
+		color: #FFFFFF;
+		font-weight: bold;
+		float: right;
+		margin-left: 5px;
+	}
+	button.active:after {
+		content: "\2212";
+	}
+	.content {
+		background-color: #ffffff;
+		padding: 0 18px;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 1.0s ease-out,background-color 1.0s ease-out;
+		//background-image: repeating-linear-gradient(135deg, #ffe0de, transparent 10px);
+	}

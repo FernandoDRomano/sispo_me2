@@ -1,0 +1,108 @@
+		.passTip {	
+			position:absolute;
+		}
+		.passTip .round {
+			-moz-border-radius:1x;
+			-webkit-border-radius:1px;
+			border-radius:1px;
+		}
+		.passTip .container {
+			font-family:sans-serif;
+			background: #FAFAFA;
+			width: 300px;
+			border:1px solid #547980;
+			-moz-box-shadow:0 0 0 5px #C3D9EB;
+			-webkit-box-shadow:0 0 0 5px #C3D9EB;
+			box-shadow:0 0 0 5px #C3D9EB;
+			padding: 8px 10px;
+			font-size: 12px;
+			color: #222222;
+			float:left;
+		}
+		.passTip .tri {
+			_filter: chroma(color=pink);
+			z-index:10;
+			line-height:0;
+			font-size:0;
+			position:relative;
+			float:left;
+			margin-top:20px;
+			width: 0;
+			height: 0;
+			border: 20px solid;
+			border-color: transparent #C3D9EB transparent transparent;
+			border-color: rgba(255,255,255,0) #C3D9EB rgba(255,255,255,0) rgba(255,255,255,0);
+			_border-color: pink #C3D9EB pink pink;
+		}
+		
+		.passTip strong {
+			font-size: 14px;
+		}
+		
+		.passTip .qmeter {
+			margin-top:3px;
+			margin-bottom: 4px;
+			font-size:10px;
+			display:block;
+			background:white;
+			position:relative;
+			-moz-box-shadow:none;
+			-webkit-box-shadow:none;
+			box-shadow:none;
+			background:-moz-linear-gradient(#EEEEEE,white 10%);
+			background:-webkit-gradient(linear,0% 0%,0% 100%,from(#EEE),color-stop(0.1,white));
+			border:1px solid #EEEEEE;
+		}
+		.passTip .level {
+			position:absolute;
+			height:25px;
+		}
+		.passTip .vweak {
+			background-image:-moz-linear-gradient(#D1313D 85%,#BC2C37 15%);
+			background-color:#D1313D;
+			background-image:-webkit-gradient(linear,0% 0%,0% 100%,color-stop(0.85,#D1313D),color-stop(0.85,#BC2C37));
+		}
+		.passTip .weak {
+			background-image:-moz-linear-gradient(#E5625C 85%,#CE5853 15%);
+			background-color:#E5625C;
+			background-image:-webkit-gradient(linear,0% 0%,0% 100%,color-stop(0.85,#E5625C),color-stop(0.85,#CE5853));
+		}
+		.passTip .good {
+			background-color: #F9BF76;
+			background:-moz-linear-gradient(#F9BF76 85%,#E0AC6A 15%) repeat scroll 0 0 transparent;
+			background:-webkit-gradient(linear,0% 0%,0% 100%,color-stop(0.85,#F9BF76),color-stop(0.85,#E0AC6A));
+		}
+		.passTip .strong {
+			background-image:-moz-linear-gradient(#BCDB8D 85%,#A9C57F 15%);
+			background-color:#BCDB8D;
+			background-image:-webkit-gradient(linear,0% 0%,0% 100%,color-stop(0.85,#BCDB8D),color-stop(0.85,#A9C57F));
+		}
+		.passTip .excellent {
+			background-color: #8EB2C5;
+			background:-moz-linear-gradient(#8EB2C5 85%,#80A0B1 15%) repeat scroll 0 0 transparent;
+			background:-webkit-gradient(linear,0% 0%,0% 100%,color-stop(0.85,#8EB2C5),color-stop(0.85,#80A0B1));
+		}
+		.passTip .status{
+			padding:5px;
+			display:inline-block;
+			font-weight:400;
+			position:relative;
+			z-index:1;
+			font-size: 12px;
+			text-align:center;
+			width:100%;
+			line-height:15px;
+		}
+		.passTip b {
+			font-size: 12px;
+			padding-left: 3px;
+			line-height:15px;
+			font-family: tahoma, sans-serif;
+		}
+		.passTip .error {
+			background: #FFE3E3; /*FFEDE3 */
+			font-size: 11px;
+			line-height: 18px;
+			margin: 4px 2px 0px 2px;
+			padding: 2px 5px;
+		}

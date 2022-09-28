@@ -1,0 +1,293 @@
+.jumbotron {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	margin-bottom: 0;
+	background-color: #292d57;
+}
+
+@media (min-width: 768px) {
+	.jumbotron {
+		padding-top: 6rem;
+		padding-bottom: 6rem;
+	}
+}
+
+.jumbotron p:last-child {
+	margin-bottom: 0;
+}
+
+.jumbotron-heading {
+	font-weight: 300;
+}
+
+.jumbotron .container {
+	max-width: 40rem;
+}
+
+/*
+footer {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+footer p {
+	margin-bottom: .25rem;
+}
+*/
+
+.footer-pad {
+	height: 40px;
+}
+
+.footer {
+	position: fixed;
+	
+	margin-top: -30px;
+	height: 22px;
+	clear: both;
+	
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+
+::-webkit-input-placeholder {
+	/* Chrome */
+	color: #999999;
+}
+
+:-ms-input-placeholder {
+	/* IE 10+ */
+	color: #999999;
+}
+
+::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #999999;
+	opacity: 1;
+}
+
+:-moz-placeholder {
+	/* Firefox 4 - 18 */
+	color: #999999;
+	opacity: 1;
+}
+
+
+.greeniconcolor {
+	color: green;
+}
+
+.rediconcolor {
+	color: red;
+}
+
+.big-checkbox {
+	width: 20px;
+	height: 20px;
+}
+
+
+.help-block {
+	font-weight: 700;
+}
+
+.error-help-block {
+	color: red;
+	font-weight: 700;
+}
+
+/*
+.has-error {
+	border: 2px solid #e74c3c;
+	animation: borderBlink 1s linear infinite;
+}
+
+@-webkit-keyframes borderBlink {
+	from,
+	to {
+		border-color: transparent
+	}
+	50% {
+		border-color: rgb(255, 0, 0)
+	}
+}
+
+@keyframes borderBlink {
+	from,
+	to {
+		border-color: transparent
+	}
+	50% {
+		border-color: rgb(255, 0, 0)
+	}
+}
+
+.borderBlink {
+	border: 0.10px solid rgb(255, 0, 0);
+	border-color: transparent;
+}
+
+.borderBlink:hover {
+	-webkit-animation: borderBlink 1s step-end infinite;
+	animation: borderBlink 1s step-end infinite;
+}*/
+
+.btn-primary-outline {
+	background-color: transparent;
+	border-color: #ccc;
+}
+
+/* .buttons-colvis{
+	color: black;
+	background: transparent;
+} */
+
+
+.top-right {
+	/*position: absolute;*/
+	right: 10px;
+	top: 18px;
+}
+
+
+.tab-content {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 10px;
+}
+
+.nav-tabs {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+/* body {
+	overflow-x: hidden;
+} */
+
+#sidebar-wrapper {
+	min-height: 100vh;
+	margin-left: -15rem;
+	-webkit-transition: margin .25s ease-out;
+	-moz-transition: margin .25s ease-out;
+	-o-transition: margin .25s ease-out;
+	transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+	padding: 0.875rem 1.25rem;
+	font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+	width: 15rem;
+}
+
+#page-content-wrapper {
+	min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+	margin-left: 0;
+}
+
+@media (min-width: 768px) {
+	#sidebar-wrapper {
+		margin-left: 0;
+	}
+
+	#page-content-wrapper {
+		min-width: 0;
+		width: 100%;
+	}
+
+	#wrapper.toggled #sidebar-wrapper {
+		margin-left: -15rem;
+	}
+}
+
+
+
+.chart {
+	width: 100%;
+	min-height: 450px;
+}
+
+.row {
+	margin: 0 !important;
+}
+
+
+
+.btnnn{
+	color: #FFFFFF;
+	background-color: #292d57;
+}
+
+.navbar{
+	background-color: #292d57;
+}
+
+.sidebar {
+	background-color: #0068a9;
+}
+
+table.dataTable thead tr {
+	color: #FFFFFF;
+	background-color: #292d57;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+	color: #FFFFFF;
+	background-color: #292d57;
+}
+
+.pagination>li.active>a,
+.pagination>li.active>span {
+	color: #FFFFFF;
+	background-color: #3030ff;
+}
+
+.pagination>li .disabled>a,
+.pagination>li .disabled>span {
+	color: #777777;
+	background-color: #292d57;
+}
+
+.card-header {
+	color: #fff;
+	background-color: #292d57;
+	border-bottom: 1px solid #292d57;
+}
+
+
+.btn-primary{
+	background-color: #292d57 !important;
+	color: #d2d1d1;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+	background-color: #292d57 !important;
+	color: #ffffff;
+}
+

@@ -1,0 +1,96 @@
+<?php
+
+use App\Models\Base\LiquidacionBase;
+
+class Liquidacion extends LiquidacionBase
+{
+
+//    const ESTADO_INICIADA  = 1;
+//    const ESTADO_CERRADA   = 2;
+//    const ESTADO_BAJA = 3;
+//    const ESTADO_ARCHIVADA = 4;
+//    const ESTADO_CANCELADA = 5;
+//
+//    private static $estadoNombre = [
+//        self::ESTADO_INICIADA  => "Iniciada",
+//        self::ESTADO_CERRADA   => "Cerrada",
+//        self::ESTADO_BAJA => "De Baja",
+//        self::ESTADO_ARCHIVADA => "Archivada",
+//        self::ESTADO_CANCELADA => "Cancelada",
+//    ];
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = ['usuario_id', 'cliente_id', 'departamento_id', 'numero',  'factura', 'periodo_desde', 'periodo_hasta', 'observaciones', 'estado_id'];
+
+    /**
+     * The name of the "created at" column.
+     *
+     * @var string
+     */
+    const CREATED_AT = 'create';
+
+    /**
+     * The name of the "updated at" column.
+     *
+     * @var string
+     */
+    const UPDATED_AT = 'update';
+
+    /**
+     * The accessors to append to the model's array form.
+     *
+     * @var array
+     */
+    protected $appends = [];
+
+    /**
+     * The accessors to append to the model's array form.
+     *
+     * @var array
+     */
+    protected $hidden = [];
+
+    /**
+     * The attributes that should be casted to native types.
+     *
+     * @var array
+     */
+    protected $casts = [];
+
+    /**
+     * The relation to append to the model's array form.
+     *
+     * @var array
+     */
+    protected $nested = [];
+
+    /**
+     * Indicates if the model should be timestamped.
+     *
+     * @var bool
+     */
+    public $timestamps = true;
+
+    /**
+     * The attributes that should be casted to date format.
+     *
+     * @var array
+     */
+    public $dates_desde = ['periodo_desde'];
+    
+    public $dates_hasta = ['periodo_hasta'];
+    
+//    public function getDisponibleAttribute()
+//    {
+//        $usadas = 0;
+//        foreach ($this->comprobanteServicios as $comprobanteServicio)
+//        {
+//            $usadas = $usadas + $comprobanteServicio->cantidad - $comprobanteServicio->disponible;
+//        }
+//        return $this->cantidad - $usadas;
+//    }
+}
+

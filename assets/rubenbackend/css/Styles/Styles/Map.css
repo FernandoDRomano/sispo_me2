@@ -1,0 +1,152 @@
+.gm-style .controls {
+	font-size: 28px;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+	box-sizing: border-box;
+	border-radius: 2px;
+	cursor: pointer;
+	font-weight: 300;
+	height: 1em;
+	margin: 6px;
+	text-align: center;
+	user-select: none;
+	padding: 2px;
+	width: 1em;
+}
+.gm-style .controls button {
+	border: 0;
+	background-color: white;
+	color: rgba(0, 0, 0, 0.6);
+}
+.gm-style .controls button:hover {
+	color: rgba(0, 0, 0, 0.9);
+}
+
+.gm-style .controls.zoom-control {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+}
+.gm-style .controls.zoom-control button {
+	font: 0.85em Arial;
+	margin: 1px;
+	padding: 0;
+}
+.gm-style .controls.maptype-control {
+	display: flex;
+	flex-direction: row;
+	width: auto;
+}
+.gm-style .controls.maptype-control button {
+	display: inline-block;
+	font-size: 0.5em;
+	margin: 0 1px;
+	padding: 0 6px;
+}
+.gm-style .controls.maptype-control.maptype-control-is-map .maptype-control-map {
+	font-weight: 700;
+}
+.gm-style .controls.maptype-control.maptype-control-is-satellite .maptype-control-satellite {
+	font-weight: 700;
+}
+.gm-style .controls.maptype-control.maptype-control-is-Nocturno .maptype-control-Nocturno {
+	font-weight: 700;
+}
+.gm-style .controls.fullscreen-control button {
+	display: block;
+	font-size: 1em;
+	height: 100%;
+	width: 100%
+}
+.gm-style .controls.fullscreen-control .fullscreen-control-icon {
+	border-style: solid;
+	height: 0.25em;
+	position:absolute;
+	width: 0.25em;
+}
+.gm-style .controls.fullscreen-control .fullscreen-control-icon.fullscreen-control-top-left {
+	border-width: 2px 0 0 2px;
+	left: 0.1em;
+	top: 0.1em;
+}
+.gm-style .controls.fullscreen-control.is-fullscreen .fullscreen-control-icon.fullscreen-control-top-left {
+	border-width: 0 2px 2px 0;
+}
+.gm-style .controls.fullscreen-control .fullscreen-control-icon.fullscreen-control-top-right {
+	border-width: 2px 2px 0 0;
+	right: 0.1em;
+	top: 0.1em;
+}
+.gm-style .controls.fullscreen-control.is-fullscreen .fullscreen-control-icon.fullscreen-control-top-right {
+	border-width: 0 0 2px 2px;
+}
+.gm-style .controls.fullscreen-control .fullscreen-control-icon.fullscreen-control-bottom-left {
+	border-width: 0 0 2px 2px;
+	left: 0.1em;
+	bottom: 0.1em;
+}
+.gm-style .controls.fullscreen-control.is-fullscreen .fullscreen-control-icon.fullscreen-control-bottom-left {
+	border-width: 2px 2px 0 0;
+}
+.gm-style .controls.fullscreen-control .fullscreen-control-icon.fullscreen-control-bottom-right {
+	border-width: 0 2px 2px 0;
+	right: 0.1em;
+	bottom: 0.1em;
+}
+.gm-style .controls.fullscreen-control.is-fullscreen .fullscreen-control-icon.fullscreen-control-bottom-right {
+	border-width: 2px 0 0 2px;
+}
+::placeholder {
+	color: #cdcdcd !important;
+}
+#mapa label{
+	//font-size: 16px;
+	color: #FFFFFF;
+}
+#Coordenadas {
+	//background-color: black;
+	font-size: 16px;
+	color: Blue;
+	padding: 5px;
+}
+#floating-panel {
+	//background-color: #fff;
+	background-color: #00000090;
+	padding: 5px;
+	border: 1px solid #999;
+	text-align: center;
+	font-family: 'Roboto','sans-serif';
+}
+#floating-panel-left {
+	background-color: #fff;
+	padding: 5px;
+	border: 1px solid #999;
+	text-align: center;
+	font-family: 'Roboto','sans-serif';
+}
+#floating-panel-bottom {
+	background-color: #fff;
+	padding: 5px;
+	border: 1px solid #999;
+	text-align: center;
+	font-family: 'Roboto','sans-serif';
+}
+.form-control-blue{
+	width: 100%;
+	display: block;
+	height: auto;
+	padding: 0px 0px;
+	line-height: 1.42857143;
+	color: #FFFFFF !important;
+	background-color: #5252bb;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.black {
+	color: #FFFFFF !important;
+	background-color: #5252bb !important;
+	text-align: right;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}

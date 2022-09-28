@@ -1,0 +1,92 @@
+table>tbody>div{
+    display: none;
+}
+
+/* VOLVER ARRIBA */
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    display:none;
+    z-index: 9999999999;
+}
+
+.crop{width: 48px;height: 48px;overflow: hidden;padding: 0;margin-bottom: 10px;border-radius: 50px;border: 3px solid #1ab394;}
+.crop img { width: 100%; height: 100%; margin-top: 0px;}
+
+.crop_dos{width: 150px;height: 150px;overflow: hidden;padding: 0;margin-bottom: 10px;border-radius: 100px;border: 3px solid #1ab394;}
+.crop_dos img { width: 100%; height: 100%; margin-top: 0px;}
+
+.sudaca-btn-large-dim {
+	width: 100%;
+	line-height: 3;
+	font-size: 25px;
+}
+
+.chosen-container-single .chosen-single {
+	box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0);
+
+	background-color: #FFFFFF;
+	background-image: none;
+	border: 1px solid #e5e6e7;
+	border-radius: 1px;
+	color: inherit;
+	display: block;
+	padding: 6px 12px;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	width: 100%;
+}
+
+.chosen-container{
+	width: 100% !important;
+}
+
+.mini-navbar .nav li:hover > .nav-second-level, .mini-navbar .nav li:focus > .nav-second-level {
+	min-width: 170px;
+}
+
+.loading-ajax{
+	background: url(../../img/ajax-loader.gif) center right no-repeat;
+	background-position-x: 95%
+}
+
+.loading-ajax-select{
+    background: url(../../img/ajax-loader.gif) center right no-repeat;
+    background-position-x: 90%;
+}
+
+@font-face {
+  font-family: 'barcode';
+  src: url('../../fonts/3Of9Barcode.eot?#iefix') format('embedded-opentype'),
+  		url('../../fonts/3Of9Barcode.woff') format('woff'),
+  		url('../../fonts/3Of9Barcode.ttf')  format('truetype'),
+  		url('../../fonts/3Of9Barcode.svg#3Of9Barcode') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.barcode{
+	font-family: barcode;
+}
+
+.barcode-bar{
+    font-size: 50px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.barcode-code{
+    text-align: center;
+    font-family: monospace;
+}
+th.sorting_disabled{
+  background-color: #FFF !important;
+}
+.tooltip.in{
+  filter:alpha(opacity=1);
+  opacity:1
+}
+.tooltip-inner{
+  max-width:300px;
+}

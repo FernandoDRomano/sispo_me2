@@ -1,0 +1,22 @@
+<style>
+	div.Subiendo {
+		position: relative;
+		height: 20px;
+		display: block;
+		width: 100%;
+		border-radius: 2px;
+		background-color: #5dc1df;
+		margin: 0.5rem 0 1rem 0;
+		overflow: hidden;
+	}
+	div.indeterminate {
+		    background-color: #374a8e;
+		width: 0%;
+		height: 20px;
+	}
+	b.Subiendo{
+		color:#FFFFFF;
+		float: left;
+		font-size:16px
+	}
+</style>
